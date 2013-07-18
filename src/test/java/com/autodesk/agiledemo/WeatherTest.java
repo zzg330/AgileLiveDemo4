@@ -16,7 +16,6 @@ public class WeatherTest extends JBehaveStories {
 	public void whenITypeInAZipcode(String zip) {
     	pages.weather().typeInZip(zip);
 	}
-
 	@When("I click the $name button")
 	public void whenIClickTheGetButton(String name) {
         pages.weather().clickSubmit();
