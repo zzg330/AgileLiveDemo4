@@ -17,7 +17,6 @@ public class WeatherRetriever {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
 		return inputStream;
 	}
 

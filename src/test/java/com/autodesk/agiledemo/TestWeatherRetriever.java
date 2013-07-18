@@ -11,7 +11,7 @@ import org.dom4j.io.SAXReader;
 import org.junit.Test;
 
 public class TestWeatherRetriever {
-
+	
 	@Test
 	public void result_should_include_city_info() throws DocumentException, IOException {
 		WeatherRetriever retriever = new WeatherRetriever();
